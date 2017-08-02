@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+    background-color: #f6f6f6;
+}
+#left {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.img-responsive{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.img-responsive img{
+    width: 100%;
+}
+.menuu{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-family: 'Raleway Black', sans-serif;
+    font-weight: 200;
+}
+h1{
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    font-family: 'Raleway Black', sans-serif;
+    font-weight: 800;
+    color: #000000;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+.pdd{
+    font-size: 1.7vw;
+    line-height: 1.7;
+}
+.backg{
+    background-color: #000000;
+}
+.fix{
+    position: fixed;
+    z-index: 99;
+}
+hr { 
+    border-color: #000000;
+    border-width: 8px;   
+}
+.bott{
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 15px;
+}
+.one .two .three .four .five .six{
+    width: 100%;
+    position: relative;
+    display: inline-block; 
+    z-index: -1;
+}
+.one .onehuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.one:hover .onehuv {
+    display: inline;
+}
+
+.two .twohuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.two:hover .twohuv {
+    display: inline;
+}
+
+.three .threehuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.three:hover .threehuv {
+    display: inline;
+}
+.four .fourhuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.four:hover .fourhuv {
+    display: inline;
+}
+.five .fivehuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.five:hover .fivehuv {
+    display: inline;
+}
+.six .sixhuv{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.six:hover .sixhuv {
+    display: inline;
+}
+.menuu{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.menuu a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuu a:hover {
+    color: #f6f6f6;
+    text-decoration: underline;
+}
