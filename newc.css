@@ -1,0 +1,125 @@
+header {
+    height: 400px;
+}
+body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+#main {
+    padding-top:70px;
+    background: #efefef;
+    background-color: #efefef;
+    width: 100%;
+}
+
+.navbar {
+  border-radius: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* fixed to top styles */
+.affix.navbar {
+  background-color: #ffffff;
+  
+}
+.affix.navbar .nav-item>a, 
+.affix.navbar .navbar-brand {
+    color: #414042;
+}
+.affix.navbar img{
+    filter: grayscale(0%);
+}
+
+
+
+/* navbar collapsing */
+
+
+/* my stuff*/
+#parent {
+    line-height: 400px;
+}
+#parent img {
+    vertical-align: middle;
+}
+.logohold{
+    width: 115px;
+}
+.navbar-brandX {
+    width: 100px;
+  float: left;
+  padding: 15px 15px;
+}
+.navcolor1{
+    background-color: #D1D3D4;
+}
+.navcolor1 img{
+  filter: grayscale(100%) invert(50%) opacity(20%);
+}
+.mdmd{
+    float: right;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    height: 80px;
+    padding-top: 22px;
+}
+.regmen{
+    height: 80px;
+  line-height: 80px;
+  text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 125%;
+    word-spacing: 40px;
+}
+.nav-link{
+    color: #414042;
+}
+
+header {
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  min-height: 100%;
+}
+header::after {
+  content: "";
+  background: url('/images/nood.jpg') no-repeat center center;
+  background-size:cover;
+    height: 400px;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;  
+  -webkit-filter: grayscale(1); /* Old WebKit */
+  filter: grayscale(1);
+}
+.piece{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.piece img{
+    width: 100%
+}
+.fourp{
+    display: block;
+    width: 40%;
+    margin-right: 60%;
+}
+
