@@ -48,6 +48,8 @@ h3{
 }
 .backg{
     background-image: url("/images/brightsign.png");
+    background-repeat:no-repeat;
+    background-position:center bottom;
 }
 .fix{
     position: fixed;
