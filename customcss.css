@@ -51,7 +51,7 @@ h3{
     background-repeat:no-repeat;
     background-position:center bottom;
     background-color: #000000;
-    background-size: cover;
+    background-size: 100% auto;
 }
 .fix{
     position: fixed;
