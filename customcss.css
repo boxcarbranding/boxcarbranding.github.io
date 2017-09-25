@@ -16,9 +16,9 @@ body, html {
 }
 .menuu{
     position: fixed;
-    bottom: 0;
-    padding-bottom: 200px;
-    font-size: 1.2vw;
+    top: 0;
+    padding-top: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
@@ -28,22 +28,22 @@ h1{
     font-size: 3.5vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    color: #003a46;
+    color: #000000;
 }
 h2{
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    color: #003a46;
+    color:#000000;
 }
 h3{
     font-family: 'Open Sans', sans-serif;
-    color: #003a46;
+    color: #000000;
 }
 .bigwords{
     font-family: 'Open Sans', sans-serif;
-    font-size: 64px;
-    line-height: 79px;
-    color: #003a46;
+    font-size: 45px;
+    line-height: 70px;
+    color: #000000;
     font-weight: 700;
 }
 .backg{
