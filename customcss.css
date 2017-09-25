@@ -47,14 +47,14 @@ h3{
     font-weight: 700;
 }
 .backg{
-    background-color: #003a46;
+    background-color: #000000;
 }
 .fix{
     position: fixed;
     z-index: 99;
 }
 hr { 
-    border-color: #003a46;
+    border-color: #000000;
     border-width: 8px;   
 }
 .bott{
