@@ -86,6 +86,7 @@ hr {
 }
 .one:hover .onehuv {
     display: inline;
+    filter: opacity(.2);
 }
 
 .two .twohuv{
@@ -97,6 +98,7 @@ hr {
 }
 .two:hover .twohuv {
     display: inline;
+    filter: opacity(.2);
 }
 
 .three .threehuv{
@@ -108,6 +110,7 @@ hr {
 }
 .three:hover .threehuv {
     display: inline;
+    filter: opacity(.2);
 }
 .four .fourhuv{
     display: none;
@@ -118,6 +121,7 @@ hr {
 }
 .four:hover .fourhuv {
     display: inline;
+    filter: opacity(.2);
 }
 .five .fivehuv{
     display: none;
@@ -128,6 +132,7 @@ hr {
 }
 .five:hover .fivehuv {
     display: inline;
+    filter: opacity(.2);
 }
 .six .sixhuv{
     display: none;
@@ -138,24 +143,7 @@ hr {
 }
 .six:hover .sixhuv {
     display: inline;
-}
-.menuu{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-}
-.menuu a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menuu a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.menuu a:hover {
-    color: #f6f6f6;
-    text-decoration: underline;
+    filter: opacity(.2);
 }
 
 .bufff{
@@ -176,8 +164,9 @@ hr {
     z-index: 99;
     border-bottom: solid;
     border-width: 8px; 
-    
+    font-size: 1.01vw;
 }
+
 .minu a:link {
     color: #000000;
     text-decoration: none;
@@ -189,6 +178,30 @@ hr {
 }
 
 .minu a:hover {
-    color: #0f0f0f;
-    text-decoration: underline;
+    color: #d3d3d3;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #d3d3d3;
+    padding-bottom: 2px;
 }
+
+
+.foot{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    background-color: #ffffff;
+    height: 255px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 15px;
+    z-index: 99;
+    border-top: solid;
+    border-width: 8px; 
+    border-bottom: solid;
+    
+}
+
+
+
+
