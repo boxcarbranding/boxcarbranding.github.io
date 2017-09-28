@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 #left {
     position: fixed;
@@ -29,6 +29,7 @@ h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: #000000;
+    margin-left: 10%;
 }
 h2{
     font-family: 'Open Sans', sans-serif;
@@ -38,16 +39,20 @@ h2{
 h3{
     font-family: 'Open Sans', sans-serif;
     color: #000000;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 21px;
 }
 .bigwords{
     font-family: 'Open Sans', sans-serif;
-    font-size: 45px;
-    line-height: 70px;
+    font-size: 65px;
+    line-height: 80px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 600;
+    
 }
 .backg{
-    background-image: url("/images/justB3.png");
+    background-image: url("/images/justB4.png");
     background-repeat:no-repeat;
     background-position:center bottom;
     background-color: #000000;
@@ -60,6 +65,7 @@ h3{
 hr { 
     border-color: #000000;
     border-width: 8px;   
+    margin-left: 10%;
 }
 .bott{
     position: fixed;
@@ -67,7 +73,6 @@ hr {
     padding-bottom: 15px;
 }
 .one .two .three .four .five .six{
-    width: 100%;
     position: relative;
     display: inline-block; 
     z-index: -1;
@@ -143,12 +148,47 @@ hr {
     text-decoration: none;
 }
 
-.menu a:visited {
+.menuu a:visited {
     color: #ffffff;
     text-decoration: none;
 }
 
 .menuu a:hover {
     color: #f6f6f6;
+    text-decoration: underline;
+}
+
+.bufff{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.minu{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    background-color: #ffffff;
+    height: 65px;
+    width: 48%;
+    padding-top: 20px;
+    padding-left: 15px;
+    position: fixed;
+    z-index: 99;
+    border-bottom: solid;
+    border-width: 8px; 
+    
+}
+.minu a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.minu a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.minu a:hover {
+    color: #0f0f0f;
     text-decoration: underline;
 }
