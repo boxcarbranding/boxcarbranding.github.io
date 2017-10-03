@@ -28,7 +28,7 @@ h1{
     font-size: 3.5vw;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    color: #000000;
+    color:  #000000;
     margin-left: 10%;
 }
 h2{
@@ -52,11 +52,12 @@ h3{
     
 }
 .backg{
-    background-image: url("/images/justB4.png");
+    background-image: url("/images/window.jpg");
+    filter: grayscale(.7);
     background-repeat:no-repeat;
     background-position:center bottom;
     background-color: #000000;
-    background-size: 100% auto;
+    background-size: auto 116%;
 }
 .fix{
     position: fixed;
@@ -64,7 +65,7 @@ h3{
 }
 hr { 
     border-color: #000000;
-    border-width: 8px;   
+    border-width: 3px;   
     margin-left: 10%;
 }
 .bott{
@@ -86,7 +87,8 @@ hr {
 }
 .one:hover .onehuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 
 .two .twohuv{
@@ -98,7 +100,8 @@ hr {
 }
 .two:hover .twohuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 
 .three .threehuv{
@@ -110,7 +113,8 @@ hr {
 }
 .three:hover .threehuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 .four .fourhuv{
     display: none;
@@ -121,7 +125,8 @@ hr {
 }
 .four:hover .fourhuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 .five .fivehuv{
     display: none;
@@ -132,7 +137,8 @@ hr {
 }
 .five:hover .fivehuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 .six .sixhuv{
     display: none;
@@ -143,7 +149,8 @@ hr {
 }
 .six:hover .sixhuv {
     display: inline;
-    filter: opacity(.2);
+    filter: opacity(1);
+    border: solid; 
 }
 
 .bufff{
@@ -206,81 +213,79 @@ hr {
 
 .wrapper {
   position: fixed;
-    width: 100%;
-    height: 800px;
+    width: 45%;
+    height: 80%;
 }
 
 .wrapper .box{
   line-height: 100px;
   text-align: center;
   font-size: 160%;
-  color: #ffffff;
   position: absolute;
 }
 .bone{
-    left: 20%;
-    top: 14%;
-    width: 70px;
-    height: 70px;
-    border-left: 12px solid #ffffff; 
-    border-top: 12px solid #ffffff;
+    top: 28px;
+    width: 270px;
+    height: 170px;
+    border-left: 4px solid #000000;
+    border-top: 4px solid  #000000;
 }
 .btwo{
     top: 39%;
-    left: 25%;
-    width: 150px;
+    left: 15%;
+    width: 190px;
     height: 150px;
-    border-left: 4px solid #ffffff; 
-    border-top: 4px solid #ffffff;
+    border-left: 2px solid  #000000;
+    border-top: 2px solid  #000000;
 }
 .bthree{
     top: 18%;
-    left: 31%;
-    width: 140px;
+    left: 21%;
+    width: 240px;
     height: 140px;
-    border-left: 8px solid #ffffff; 
-    border-top: 8px solid #ffffff;  
+    border-left: 4px solid  #000000;
+    border-top: 4px solid  #000000;
 }
 
 .bfour{
     top: 26%;
-    left: 11%;
-    width: 200px;
+    left: 6%;
+    width: 230px;
     height: 200px;
-    border-left: 2px solid #ffffff; 
-    border-top: 2px solid #ffffff; 
+    border-left: 2px solid  #000000;
+    border-top: 2px solid  #000000;
 }
 .bfive{
-    top: 64%;
-    left: 64%;
-    width: 200px;
+    top: 77%;
+    left: 54%;
+    width: 290px;
     height: 200px;
-    border-right: 2px solid #ffffff; 
-    border-bottom: 2px solid #ffffff;
+    border-right: 2px solid  #000000;
+    border-bottom: 2px solid  #000000;
 }
 .bsix{
-    top: 68%;
-    left: 85%;
-    width: 90px;
+    top: 84%;
+    left: 74%;
+    width: 190px;
     height: 90px;
-    border-right: 4px solid #ffffff; 
-    border-bottom: 4px solid #ffffff;
+    border-right: 4px solid  #000000;
+    border-bottom: 4px solid  #000000;
 }
 .bseven{
-    top: 60%;
-    left: 80%;
-    width: 110px;
+    top: 78%;
+    left: 65%;
+    width: 160px;
     height: 110px;
-    border-right: 8px solid #ffffff; 
-    border-bottom: 8px solid #ffffff;
+    border-right: 1px solid  #000000;
+    border-bottom: 1px solid  #000000;
 }
 .beight{
     top: 72%;
     left: 66%;
-    width: 80px;
+    width: 130px;
     height: 80px;
-    border-right: 12px solid #ffffff; 
-    border-bottom: 12px solid #ffffff;
+    border-right: 4px solid  #000000;
+    border-bottom: 4px solid  #000000;
 }
 
 
