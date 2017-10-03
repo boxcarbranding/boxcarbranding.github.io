@@ -16,12 +16,58 @@
     <link rel="stylesheet" type="text/css" href="customcss.css">
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+  
+  
+      <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    
+    <script>
+    
+    var myBoxes = $('.news-item');     $(window).scroll(function(){
+ var scrollTop = $(window).        scrollTop();
+ myBoxes.each(function(){
+ var $this = $(this);
+ var scrollspeed = parseInt($this.    data('scroll-speed')),
+ offset = - scrollTop / scrollspeed;
+ $this.css('transform',   'translateY(' + offset + 'px)');
+ });
+ });
+    
+    </script>
+    
+    <!-- scroll speed script good --><script>
+    $(function(){
+  $(window).scroll(function(){
+    $('.box').each(function(){
+      $(this).css('margin-top', - $(window).scrollTop() / parseInt($(this).attr('scrollSpeed')));
+      
+    });
+  });
+})</script>
+  
+  
+  
     </head>
 
 <body>
     
  <div class="container-fluid">
     <div class="row h-100">
+      
+      <div class="wrapper">
+    <div class="box bone" scrollSpeed="3"> </div>
+    <div class="box btwo" scrollSpeed="1"> </div>
+      <div class="box bthree" scrollSpeed="7"> </div>
+      <div class="box bfour" scrollSpeed="4"> </div>
+      <div class="box bfive" scrollSpeed="1"> </div>
+    <div class="box bsix" scrollSpeed="8"> </div>
+      <div class="box bseven" scrollSpeed="4"> </div>
+      <div class="box beight" scrollSpeed="2"> </div>
+      <div class="box bhuge" scrollSpeed="2"> </div>
+  </div>
+      
         <div class="col-sm-6 col-2 backg text-white d-flex align-items-center justify-content-center hidden-xs-down" id="left">
             <div class="hidden-md-down"><center><img src="/images/brightletterlogowhite-15.png" width="60%"></center>
             
