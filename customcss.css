@@ -45,8 +45,7 @@ h3{
 }
 .bigwords{
     font-family: 'Open Sans', sans-serif;
-    font-size: 65px;
-    line-height: 80px;
+    font-size: 3.6vw;
     color: #000000;
     font-weight: 600;
     
@@ -85,8 +84,6 @@ hr {
 }
 .one:hover .onehuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 
 .two .twohuv{
@@ -98,8 +95,6 @@ hr {
 }
 .two:hover .twohuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 
 .three .threehuv{
@@ -111,8 +106,6 @@ hr {
 }
 .three:hover .threehuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 .four .fourhuv{
     display: none;
@@ -123,8 +116,6 @@ hr {
 }
 .four:hover .fourhuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 .five .fivehuv{
     display: none;
@@ -135,8 +126,6 @@ hr {
 }
 .five:hover .fivehuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 .six .sixhuv{
     display: none;
@@ -147,8 +136,6 @@ hr {
 }
 .six:hover .sixhuv {
     display: inline;
-    filter: opacity(1);
-    border: solid; 
 }
 
 .bufff{
@@ -169,7 +156,7 @@ hr {
     z-index: 99;
     border-bottom: solid;
     border-width: 8px; 
-    font-size: 1.01vw;
+    font-size: 1vw;
 }
 
 .minu a:link {
